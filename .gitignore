@@ -1,0 +1,52 @@
+# Local secrets and generated files — never commit these.
+
+# Credentials and keys
+*.keystore
+*.jks
+*.p12
+*.pem
+firelab-auth.json
+.firelab_bot_token
+*password*
+*token*
+
+# Runtime state
+*.log
+*.pid
+firelab-public-url.txt
+firelab-wifi.json
+firelab-adblock.json
+firelab-adblock.cmd
+.firelab-*.tmp
+
+# Build output
+*.apk
+*.aab
+*.dex
+*.class
+classes/
+dex/
+build/
+dist/
+
+# Android / IDE
+.gradle/
+local.properties
+.idea/
+.vscode/
+*.iml
+
+# OS noise
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Keep documentation and examples
+!docs/**
+!examples/**
